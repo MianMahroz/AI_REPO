@@ -1,0 +1,4 @@
+subject,error_message,resolution
+"Payment Failed","Error: Invalid card details","Verify card number and retry"
+"Login Timeout","Timeout: API took >5s","Increased server capacity"
+"Database Crash","Exception: Connection lost","Restarted DB service"

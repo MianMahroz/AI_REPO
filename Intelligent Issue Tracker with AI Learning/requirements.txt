@@ -1,0 +1,34 @@
+# Core Application
+streamlit==1.32.0
+python-dotenv==1.0.0
+tqdm==4.66.1
+numpy==1.26.0
+pandas==2.1.1
+
+# Email Processing
+imaplib2==3.6
+beautifulsoup4==4.12.2  # Required for HTML email parsing
+email-validator==2.0.0
+
+# AI/ML Components
+llama-index==0.10.0
+llama-cpp-python==0.2.23
+sentence-transformers==2.2.2
+transformers==4.35.2
+
+# Vector Database & Storage
+chromadb==0.4.15
+pypika==0.48.9
+hnswlib==0.7.0  # Required for ChromaDB
+
+# Database
+sqlalchemy==1.4.41  # Must stay at 1.4.x for ChromaDB compatibility
+dataset==1.6.2
+
+# PyTorch (Choose ONE based on your hardware)
+torch==2.1.2  # CPU-only
+# torch==2.1.2+cu118 --extra-index-url https://download.pytorch.org/whl/cu118  # NVIDIA GPU
+
+# Additional Utilities
+python-multipart==0.0.6  # For Streamlit file uploads
+urllib3==2.0.7  # Security updates
