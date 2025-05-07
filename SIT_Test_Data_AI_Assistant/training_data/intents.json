@@ -1,0 +1,14 @@
+{
+    "intents": [
+      {
+        "tag": "get_elife_account",
+        "patterns": ["I need an eLife account", "Get me an eLife account"],
+        "responses": ["Retrieving eLife account"]
+      },
+      {
+        "tag": "whitelist_number",
+        "patterns": ["Whitelist this number", "Add to RTF whitelist"],
+        "responses": ["Whitelisting number in RTF"]
+      }
+    ]
+  }
